@@ -15,7 +15,8 @@ def remove_ignore_files():
     for file_regex in IGNORE_FILES:
         logger.info("Removing files %s", file_regex)
         for file_name in glob.glob('../**/{}'.format(file_regex), recursive=True):
-            os.remove(file_name)
+            # os.remove(file_name)
+            print(file_name)
 
 
 if __name__ == "__main__":

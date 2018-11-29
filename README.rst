@@ -2,8 +2,8 @@
 Laboratorium Facility Template
 ==============================
 
- .. _travis: https://travis-ci.org/bouthilx/cookiecutter-laboratorium-facility
- .. |travis.png| image:: https://travis-ci.org/bouthilx/cookiecutter-laboratorium-facility.png
+ .. _travis: https://travis-ci.org/bouthilx/cookiecutter-laboratorium-registry
+ .. |travis.png| image:: https://travis-ci.org/bouthilx/cookiecutter-laboratorium-registry.png
     :alt: Travis CI build status
     :target: `travis`_
 
@@ -20,7 +20,7 @@ This is a `Cookiecutter`_ template for creating a Laboratorium Facility Plugin.
 Usage
 =====
 
-.. _GitHub: https://github.com/bouthilx/cookiecutter-laboratorium-facility
+.. _GitHub: https://github.com/bouthilx/cookiecutter-laboratorium-registry
 
 
 Install Python requirements for using the template:
@@ -34,4 +34,4 @@ Create a new project directly from the template on `GitHub`_:
 
 .. code-block:: console
    
-    $ cookiecutter gh:bouthilx/cookiecutter-laboratorium-facility --output-dir '..'
+    $ cookiecutter gh:bouthilx/cookiecutter-laboratorium-registry --output-dir '..'
